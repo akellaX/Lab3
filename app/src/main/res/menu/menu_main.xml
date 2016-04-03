@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.anna.lab3.MainActivity">
+    <item
+        android:id="@+id/Login"
+        android:orderInCategory="100"
+        android:title="Login"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Registration"
+        android:orderInCategory="100"
+        android:title="Registration"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Clear"
+        android:orderInCategory="100"
+        android:title="Clear"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Exit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+</menu>
